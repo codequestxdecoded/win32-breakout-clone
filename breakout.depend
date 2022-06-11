@@ -1,0 +1,282 @@
+# depslib dependency file v1.0
+1654878795 source:c:\projects\c\breakout\main.cpp
+	<tchar.h>
+	<windows.h>
+	<stdlib.h>
+	"breakout.h"
+	<iostream>
+
+1653987150 c:\projects\c\breakout\board.h
+	"box2d/box2d.h"
+	<windows.h>
+
+1653244491 source:c:\projects\c\breakout\board.c
+
+1653987808 source:c:\projects\c\breakout\board.cpp
+	"board.h"
+
+1653369125 c:\projects\c\breakout\box2d\box2d.h
+	"b2_settings.h"
+	"b2_draw.h"
+	"b2_timer.h"
+	"b2_chain_shape.h"
+	"b2_circle_shape.h"
+	"b2_edge_shape.h"
+	"b2_polygon_shape.h"
+	"b2_broad_phase.h"
+	"b2_dynamic_tree.h"
+	"b2_body.h"
+	"b2_contact.h"
+	"b2_fixture.h"
+	"b2_time_step.h"
+	"b2_world.h"
+	"b2_world_callbacks.h"
+	"b2_distance_joint.h"
+	"b2_friction_joint.h"
+	"b2_gear_joint.h"
+	"b2_motor_joint.h"
+	"b2_mouse_joint.h"
+	"b2_prismatic_joint.h"
+	"b2_pulley_joint.h"
+	"b2_revolute_joint.h"
+	"b2_weld_joint.h"
+	"b2_wheel_joint.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_settings.h
+	"b2_types.h"
+	"b2_api.h"
+	"b2_user_settings.h"
+	<stdarg.h>
+	<stdint.h>
+	"b2_common.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_types.h
+
+1653369125 c:\projects\c\breakout\box2d\b2_api.h
+
+1653369125 c:\projects\c\breakout\box2d\b2_common.h
+	"b2_settings.h"
+	<stddef.h>
+	<assert.h>
+	<float.h>
+
+1653369125 c:\projects\c\breakout\box2d\b2_draw.h
+	"b2_api.h"
+	"b2_math.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_math.h
+	<math.h>
+	"b2_api.h"
+	"b2_settings.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_timer.h
+	"b2_api.h"
+	"b2_settings.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_chain_shape.h
+	"b2_api.h"
+	"b2_shape.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_shape.h
+	"b2_api.h"
+	"b2_math.h"
+	"b2_collision.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_collision.h
+	<limits.h>
+	"b2_api.h"
+	"b2_math.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_circle_shape.h
+	"b2_api.h"
+	"b2_shape.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_edge_shape.h
+	"b2_api.h"
+	"b2_shape.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_polygon_shape.h
+	"b2_api.h"
+	"b2_shape.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_broad_phase.h
+	"b2_api.h"
+	"b2_settings.h"
+	"b2_collision.h"
+	"b2_dynamic_tree.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_dynamic_tree.h
+	"b2_api.h"
+	"b2_collision.h"
+	"b2_growable_stack.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_growable_stack.h
+	<string.h>
+	"b2_settings.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_body.h
+	"b2_api.h"
+	"b2_math.h"
+	"b2_shape.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_contact.h
+	"b2_api.h"
+	"b2_collision.h"
+	"b2_fixture.h"
+	"b2_math.h"
+	"b2_shape.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_fixture.h
+	"b2_api.h"
+	"b2_body.h"
+	"b2_collision.h"
+	"b2_shape.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_time_step.h
+	"b2_api.h"
+	"b2_math.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_world.h
+	"b2_api.h"
+	"b2_block_allocator.h"
+	"b2_contact_manager.h"
+	"b2_math.h"
+	"b2_stack_allocator.h"
+	"b2_time_step.h"
+	"b2_world_callbacks.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_block_allocator.h
+	"b2_api.h"
+	"b2_settings.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_contact_manager.h
+	"b2_api.h"
+	"b2_broad_phase.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_stack_allocator.h
+	"b2_api.h"
+	"b2_settings.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_world_callbacks.h
+	"b2_api.h"
+	"b2_settings.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_distance_joint.h
+	"b2_api.h"
+	"b2_joint.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_joint.h
+	"b2_api.h"
+	"b2_math.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_friction_joint.h
+	"b2_api.h"
+	"b2_joint.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_gear_joint.h
+	"b2_joint.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_motor_joint.h
+	"b2_api.h"
+	"b2_joint.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_mouse_joint.h
+	"b2_api.h"
+	"b2_joint.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_prismatic_joint.h
+	"b2_api.h"
+	"b2_joint.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_pulley_joint.h
+	"b2_api.h"
+	"b2_joint.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_revolute_joint.h
+	"b2_api.h"
+	"b2_joint.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_weld_joint.h
+	"b2_api.h"
+	"b2_joint.h"
+
+1653369125 c:\projects\c\breakout\box2d\b2_wheel_joint.h
+	"b2_api.h"
+	"b2_joint.h"
+
+1654867737 source:c:\projects\c\breakout\section.cpp
+	"section.h"
+
+1654867638 c:\projects\c\breakout\section.h
+	<windows.h>
+	"vector2.h"
+	"theme.h"
+
+1654389422 c:\projects\c\breakout\vector2.h
+	"breakdef.h"
+	"vector2def.h"
+
+1654585054 c:\projects\c\breakout\breakdef.h
+	<windows.h>
+	<iostream>
+
+1654876341 source:c:\projects\c\breakout\gameobjects.cpp
+	"gameobjects.h"
+	<iostream>
+
+1654589952 c:\projects\c\breakout\gameobjects.h
+	<windows.h>
+	"ball.h"
+	"block.h"
+	"pad.h"
+	"breakdef.h"
+
+1654867895 source:c:\projects\c\breakout\breakout.cpp
+	"breakout.h"
+
+1654879133 c:\projects\c\breakout\breakout.h
+	"gameobjects.h"
+	"boardgame.h"
+
+1654590150 c:\projects\c\breakout\vector2def.h
+	"breakdef.h"
+
+1654389674 c:\projects\c\breakout\ball.h
+	"balldef.h"
+
+1654389876 c:\projects\c\breakout\balldef.h
+	"vector2.h"
+	"box2d/box2d.h"
+
+1654389853 c:\projects\c\breakout\block.h
+	"blockdef.h"
+
+1654389858 c:\projects\c\breakout\blockdef.h
+	"vector2.h"
+	"box2d/box2d.h"
+
+1654590394 c:\projects\c\breakout\pad.h
+	"paddef.h"
+
+1654390020 c:\projects\c\breakout\paddef.h
+	"vector2.h"
+	"box2d/box2d.h"
+
+1654879032 source:c:\projects\c\breakout\boardgame.cpp
+	"boardgame.h"
+
+1654879010 c:\projects\c\breakout\boardgame.h
+	"boardgamedef.h"
+	"section.h"
+
+1654857643 c:\projects\c\breakout\boardgamedef.h
+	"vector2.h"
+	"box2d/box2d.h"
+	"theme.h"
+
+1654421475 c:\projects\c\breakout\theme.h
+	"themesdef.h"
+
+1654421743 c:\projects\c\breakout\themesdef.h
+	"breakdef.h"
+

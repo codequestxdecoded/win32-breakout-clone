@@ -1,0 +1,12 @@
+@window:
+    width: i400;
+
+@board:
+    width: i300;
+    height: i300;
+    margin: o{i100,i50,i10,i10};
+    border-color: i0x000000;
+
+
+
+

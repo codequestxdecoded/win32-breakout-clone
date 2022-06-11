@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="breakout" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/breakout" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/projects/c/breakout/" />
+					<Add directory="C:/projects/c/breakout/box2d" />
+				</Compiler>
+				<Linker>
+					<Add library="libbox2d.a" />
+					<Add library="libbox2d.dll.a" />
+					<Add library="libglad.a" />
+					<Add library="libglfw.a" />
+					<Add library="libimgui.a" />
+					<Add library="libsajson.a" />
+					<Add directory="C:/projects/c/breakout/" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/breakout" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+			<Add library="comctl32" />
+			<Add library="C:/projects/c/breakout/libbox2d.a" />
+			<Add library="C:/projects/c/breakout/libbox2d.dll.a" />
+			<Add library="C:/projects/c/breakout/libglad.a" />
+			<Add library="C:/projects/c/breakout/libglfw.a" />
+			<Add library="C:/projects/c/breakout/libimgui.a" />
+			<Add library="C:/projects/c/breakout/libsajson.a" />
+		</Linker>
+		<Unit filename="ball.h" />
+		<Unit filename="balldef.h" />
+		<Unit filename="block.h" />
+		<Unit filename="blockdef.h" />
+		<Unit filename="boardgame.cpp" />
+		<Unit filename="boardgame.h" />
+		<Unit filename="boardgamedef.h" />
+		<Unit filename="breakdef.h" />
+		<Unit filename="breakout.cpp" />
+		<Unit filename="breakout.h" />
+		<Unit filename="config.cnf" />
+		<Unit filename="gameobjects.cpp" />
+		<Unit filename="gameobjects.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="pad.h" />
+		<Unit filename="paddef.h" />
+		<Unit filename="section.cpp" />
+		<Unit filename="section.h" />
+		<Unit filename="theme.h" />
+		<Unit filename="themesdef.h" />
+		<Unit filename="vector2.h" />
+		<Unit filename="vector2def.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
